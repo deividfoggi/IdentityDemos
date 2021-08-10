@@ -1,9 +1,16 @@
 # Delegated permission
 IdentityLabs
 
-This scenario explores the delegated permissions using the authorize codegrant flow, such as a node app that will authenticate user and get the profile from Graph API.
+## Pre-reqs
 
-Setup:
+ - Node.js (https://nodejs.org/en/download/)
+ - Any code editor to adjust settings like VSCode (http://aka.ms/vscode)
+ - Azure AD trial account
+ - Office 365 or Outlook.com account
+
+This scenario explores the application permissions using the client credentials grant flow, such as an automation that will get mails from user's inbox.
+
+## Setup
 
 1. Register an application on Azure AD with the following delegated permissions:
 
