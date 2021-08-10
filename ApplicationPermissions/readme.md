@@ -1,6 +1,11 @@
 # Application permission
 IdentityLabs
 
+## Pre-reqs
+
+ - .net 5.0
+ - Any code editor to adjust settings like VSCode
+
 This scenario explores the application permissions using the client credentials grant flow, such as an automation that will get mails from user's inbox.
 
 Setup:
