@@ -8,11 +8,11 @@ IdentityLabs
  - Azure AD trial account
  - Office 365 or Outlook.com account
 
-This scenario explores the application permissions using the client credentials grant flow, such as an automation that will get mails from user's inbox.
+This scenario explores the delegated permissions using the client credentials grant flow, such as an automation that will get mails from user's inbox.
 
 ## Setup
 
-1. Register an application on Azure AD with the following delegated permissions:
+1. Register an application on Azure AD with the following delegated permissions (https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#:~:text=%20Follow%20these%20steps%20to%20create%20the%20app,for%20your%20application.%20Users%20of%20your...%20More%20)
 
     - User.Read
     - Calendars.Read
