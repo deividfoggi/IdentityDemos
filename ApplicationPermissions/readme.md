@@ -8,7 +8,7 @@ IdentityLabs
 
 This scenario explores the application permissions using the client credentials grant flow, such as an automation that will get mails from user's inbox.
 
-Setup:
+## Setup
 
 1. Register an application on Azure AD with the following admin consent granted application permissions:
 
